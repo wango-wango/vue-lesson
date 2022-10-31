@@ -35,7 +35,7 @@ export default {
 import HelloWorldVue from "./components/HelloWorld.vue";
 import RefReactive from "./components/RefReactive.vue";
 import RefFunctionOnMountedVue from "./components/RefFunctionOnMounted.vue";
-
+import ComputedVue from "./components/Computed.vue";
 </script>
 
 <template>
@@ -45,6 +45,8 @@ import RefFunctionOnMountedVue from "./components/RefFunctionOnMounted.vue";
     <RefFunctionOnMountedVue />
     <hr>
     <RefReactive />
+    <hr>
+    <ComputedVue />
   </div>
 </template>
 
