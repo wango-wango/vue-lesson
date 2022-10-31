@@ -34,4 +34,5 @@ onMounted(() => {
 
     <h3>{{ name }}</h3>
     <button @click="changeName">changeName</button>
+    <hr>
 </template>
